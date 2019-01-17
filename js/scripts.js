@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
     var nameInput = $("input#name").val();
-    var music = parseInt($("#music")).val();
+    var music = parseInt($("#music"));
     var food = $("input:radio[name=food-type]:checked").val();
     var color = $("#color").val();
 
